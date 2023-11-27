@@ -27,6 +27,7 @@ label[for="Ape"] {
 }
 form {
     width: 300px;
+    margin-bottom: 40px;
 }
 img {
     width: 35%;
