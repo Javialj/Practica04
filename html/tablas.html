@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/Tablas.css">
+
+</head>
+<body>
+    <header>
+        <h1 id="comienzo">Recopilación de temas vistos</h1>
+        <nav>
+            <ul class="Submit">
+                <li><a href="../index.html">Inicio</a></li> <!--esto debe ser span-->
+                <li><a href="Etiquetas_basica.html">Etiquetas</a></li>
+                <li><a href="Formato_de_texto.html">Texto</a></li>
+                <li><a href="enalces.html">Enlaces</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><span>Tablas</span></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+                <li><a href="contacto.html" id="Contac">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h3>Tablas:</h3>
+            <p>Las tablas sirven para ordenar una serie de datos.</p>
+            <p>Una tabla en html se crea mediante el elemento &#60; table &#62;, dentro de este elemento van otros elementos: </p>
+            <p>&#60; tr &#62;: este elemento anidado en la tabla sirve para crear las filas.</p>
+            <p>&#60; th &#62;: este elemento crea columnas con el formato como si fuera un encabezado.</p>
+            <p>&#60; td &#62;: este elemento al igual que el &#60; th &#62; crea columnas sirviendo para poder rellenar datos.</p>
+            <p>Nota: No es necesario la presencia de los elementos &#60; td &#62; y &#60; th &#62; simultáneamente dentro de la tabla.</p>
+            <table>
+                <tr>
+                    <th>Aquí va un encabezado</th>
+                    <th>Aquí va un encabezado</th>
+                    <th>Aquí va un encabezado</th>
+                </tr>
+                <tr>
+                    <th>Fila 1 - Columna 1</th>
+                    <th colspan="2">Fila 1 - Columna 2 y 3</th>
+            
+                </tr>
+                <tr>
+                    <th>Fila 1 - Columna 1</th>
+                    <th rowspan="2">Fila 2 y 3 - Columna 2</th>
+                    <th>Fila 1 - Columna 1</th>
+                </tr>
+                <tr>
+                    <th>Fila 1 - Columna 1</th>
+                    <th>Fila 1 - Columna 1</th>
+                </tr>
+            </table>
+            <p id="FINas">Nota: La union de union de distintas columnas y filas, se debe a que dentro del elemento &#60; th &#62; o &#60; td &#62; se utiliza colspan y rowspan.</p>
+        </article>
+    </main>
+    <footer>
+        <p class="Contacs">Javier Alejandro</p>
+        <p class="Contacs">Numero:#########</p>
+        <p class="Contacs">Correo:example@gmail.com</p>
+    </footer>
+</body>
+</html>

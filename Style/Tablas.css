@@ -1,0 +1,17 @@
+h3, p, .LIs, table {
+    margin-left: 100px;
+}
+table {
+    border: 1px solid black;
+    width: 85%;
+    height: 40%;
+    
+}
+th, td {
+    margin: 0%;
+    border: 1px solid black;
+    text-align: center;
+}
+#FINas {
+    margin-bottom: 20%;
+}

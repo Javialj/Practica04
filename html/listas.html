@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/Listas.css">
+
+
+</head>
+<body>
+    <header>
+        <h1 id="comienzo">Recopilación de temas vistos</h1>
+        <nav>
+            <ul class="Submit">
+                <li><a href="../index.html">Inicio</a></li> <!--esto debe ser span-->
+                <li><a href="Etiquetas_basica.html">Etiquetas</a></li>
+                <li><a href="Formato_de_texto.html">Texto</a></li>
+                <li><a href="enalces.html">Enlaces</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><span>Listas</span></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+                <li><a href="contacto.html" id="Contac">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h3 id="LT">Listas y algunos tipos:</h3>
+            <p>El marcado de listas se realiza siempre en al menos dos elementos. Los dos tipos de listas más comunes son:</p>
+            <ul class="LIs">
+                <li><strong>Las listas desordenadas:</strong> son aquellas en las que el orden de los items no es relevante, como en una lista de compras. Estas son encerradas en un elemento &#60; ul &#62;.</li>
+                <li><strong>Las listas ordenadas:</strong> son aquellas en las que el orden sí es relevante, como en una receta. Estas son encerradas en un elemento  &#60; ol &#62;.</li>
+            </ul>
+            <p>Nota: Dentro de cada tipo de lista va uno o varios elementos &#60; li &#62;.</p>
+            <h3 id="LA">Listas anidadas</h3>
+            <p>Dentro de cada tipo de lista, se pueden anidar otras listas, ya sea la misma o diferente.</p>
+            <h4 class="LIs">Ejemplo 1 - Protocolos de la capa de la aplicación</h4>
+            <ul class="LIs">
+                <li>Transmisión de ficheros
+                    <ul>
+                        <li>FTP</li>
+                    </ul>
+                </li>
+                <li>Correo electrónico
+                    <ul>
+                        <li>IMAP</li>
+                        <li>POP</li>
+                        <li>SMTP</li>
+                    </ul>
+                </li>
+            </ul>
+        <h4 class="LIs">Ejemplo 2 - Índice</h4>
+            <ol class="LIs">
+                <li>La comunicación
+                    <ol>
+                        <li>Conceptos</li>
+                        <li>Elementos de un sistema de comunicación</li>
+                        <li>Modos de transmisión</li>
+                    </ol>
+                </li>    
+                <li>Concepto de red. Ventajas
+                    <ol>
+                        <li>Concepto de red</li>
+                        <li>Ventajas en las redes</li>
+                    </ol>
+                </li>
+                <li>Topologías de red
+                    <ol>
+                        <li>Topología en estrella</li>
+                        <li>Topología en bus</li>
+                        <li>Topología en anillo</li>
+                        <li>Topología en árbol (estrella jerárquica)</li>
+                        <li>Topología en malla</li>
+                    </ol>
+                </li>
+            </ol>
+        <h4 class="LIs">Ejemplo 3 - Mixto</h4>
+            <ol class="LIs">
+                <li>Mamíferos
+                    <ul>
+                        <li>Gato</li>
+                        <li>Perro</li>
+                    </ul>
+                </li>
+                <li>Pájaros
+                   <ul>
+                       <li>Paloma</li>
+                       <li>Gorrión</li>
+                   </ul>
+                </li>
+                <li>Peces
+                    <ul>
+                        <li>Tiburón</li>
+                        <li>Sardina</li>
+                        <li>Atún</li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+    </main>
+    <footer>
+        <p class="Contacs">Javier Alejandro</p>
+        <p class="Contacs">Numero:#########</p>
+        <p class="Contacs">Correo:example@gmail.com</p>
+    </footer>
+</body>
+</html>

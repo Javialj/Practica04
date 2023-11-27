@@ -1,0 +1,39 @@
+#Nom {
+    display: flex;
+}
+#Ape {
+    display: flex;
+}
+#Correo {
+    display: flex;
+}
+label[for="Correo"] {
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+label[for="Nom"] {
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+label[for="Ape"] {
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+form {
+    width: 300px;
+}
+img {
+    width: 45%;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-left: 53%;
+    margin-top: -45%;
+    display: flex;
+    margin-bottom: 30px;
+}

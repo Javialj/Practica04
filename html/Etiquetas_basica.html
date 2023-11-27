@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/Etiquetas.css">
+
+
+</head>
+<body>
+    <header>
+        <h1 id="comienzo">Recopilación de temas vistos</h1>
+        <nav>
+            <ul class="Submit">
+                <li><a href="../index.html">Inicio</a></li> <!--esto debe ser span-->
+                <li><span>Etiquetas</span></li>
+                <li><a href="Formato_de_texto.html">Texto</a></li>
+                <li><a href="enalces.html">Enlaces</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+                <li><a href="contacto.html" id="Contac">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="Etiquetas">
+        <article id="ETi">
+            <h3>Etiquetas</h3>
+                <p>Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc.</p>
+
+                <h3 id="PP">-Partes principales de una etiquetas:</h3>
+                    <ul class="LIs">
+                        <li>-La etiqueta de apertura: consiste en el nombre del elemento, encerrado por paréntesis angulares (&#60; &#62;) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento.</li>
+                        <li>-La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (&#47;) antes del nombre de la etiqueta. Establece dónde termina el elemento.</li>
+                        <li>-El contenido: este es el contenido del elemento, que en este caso es sólo texto.</li>
+                        <li>-El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</li>
+                    </ul>
+                <h3 id="E">-Atributos:</h3>
+                <p>Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aparte los atributos siempre deben de contar con</p>
+                    <ul class="LIs">
+                        <li>Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).</li>
+                        <li>El nombre del atributo, seguido por un signo de igual (&#61;).</li>
+                        <li>Comillas de apertura y de cierre, encerrando el valor del atributo.</li>
+                    </ul>
+                <p>Un ejemplo de este caso es el uso del atributo class.</p>
+                <p>&#60; h2 class="Subtitulo" &#62;</p>
+                <h3 id="EA">-Elementos anidados:</h3>
+                    <p>Puedes también colocar elementos dentro de otros elementos. Si, por ejemplo, quieres resaltar una palabra del texto, podemos encerrarla en un elemento &#60; strong &#62;, que significa que dicha palabra se debe enfatizar.</p>
+                <p>Un ejemplo de este caso es:</p>
+                <p id="EjemB">"Una <b>palabra clave</b> realmente importante para mi"</p>
+                <p>Nota: Debes asegurarte que los elementos estén correctamente anidados, los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuentren claramente dentro o fuera el uno del otro.</p>
+                <h3 id="EV">-Elementos vacíos:</h3>
+                <p>Algunos elementos no poseen contenido, y son llamados elementos vacíos, como por ejemplo el elemento &#60; img &#62;.</p>
+                <h3 id="EDS">-Elemento div y las etiquetas semánticas:</h3>
+                <p>El elemento &#60; div &#62; funciona principalmente como una especie de bloque que dentro puede tener más &#60; div &#62;.</p>
+                <img id="Ii" src="../Imagenes/solucion-ejercicio-capas-html.jpg" alt="Div dentro de div">
+                <p>Para quitar confusiones debido a tener desasidos &#60; div &#62;, están las etiquetas semánticas, que sirven para tener una idea general de una estructura sin tener que recurrir a lo antes mencionado, estos elementos tiene la siguiente estructura:</p>
+                <img id="Iii" src="../Imagenes/img_sem_elements.gif" alt="ES">
+
+        </article>
+    </main>
+    <footer>
+        <p class="Contacs">Javier Alejandro</p>
+        <p class="Contacs">Numero:#########</p>
+        <p class="Contacs">Correo:example@gmail.com</p>
+    </footer>
+</body>
+</html>
